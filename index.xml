@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Mulberror的博客</title>
-        <link>http://localhost:1313/</link>
+        <link>https://mulberror.github.io/</link>
         <description>Recent content on Mulberror的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-Hans</language>
-        <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mulberror.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hello World</title>
-        <link>http://localhost:1313/p/hello-world/</link>
+        <link>https://mulberror.github.io/p/hello-world/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hello-world/</guid>
-        <description>&lt;img src="http://localhost:1313/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
+        <guid>https://mulberror.github.io/p/hello-world/</guid>
+        <description>&lt;img src="https://mulberror.github.io/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
 &lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -26,10 +26,10 @@
         </item>
         <item>
         <title>Markdown Syntax Guide</title>
-        <link>http://localhost:1313/p/markdown-syntax-guide/</link>
+        <link>https://mulberror.github.io/p/markdown-syntax-guide/</link>
         <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
+        <guid>https://mulberror.github.io/p/markdown-syntax-guide/</guid>
         <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
@@ -226,11 +226,11 @@
         </item>
         <item>
         <title>Image gallery</title>
-        <link>http://localhost:1313/p/image-gallery/</link>
+        <link>https://mulberror.github.io/p/image-gallery/</link>
         <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/image-gallery/</guid>
-        <description>&lt;img src="http://localhost:1313/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://mulberror.github.io/p/image-gallery/</guid>
+        <description>&lt;img src="https://mulberror.github.io/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
@@ -244,10 +244,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/image-gallery/1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://mulberror.github.io/p/image-gallery/1.jpg&#34;
 	width=&#34;2000&#34;
 	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://mulberror.github.io/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, https://mulberror.github.io/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Image 1&#34;
@@ -257,10 +257,10 @@
 		data-flex-grow=&#34;142&#34;
 		data-flex-basis=&#34;342px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/p/image-gallery/2.jpg&#34;
+&gt; &lt;img src=&#34;https://mulberror.github.io/p/image-gallery/2.jpg&#34;
 	width=&#34;1500&#34;
 	height=&#34;2250&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, http://localhost:1313/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://mulberror.github.io/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, https://mulberror.github.io/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Image 2&#34;
@@ -281,11 +281,11 @@
         </item>
         <item>
         <title>Shortcodes</title>
-        <link>http://localhost:1313/p/shortcodes/</link>
+        <link>https://mulberror.github.io/p/shortcodes/</link>
         <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/shortcodes/</guid>
-        <description>&lt;img src="http://localhost:1313/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://mulberror.github.io/p/shortcodes/</guid>
+        <description>&lt;img src="https://mulberror.github.io/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
 &lt;/h2&gt;
@@ -364,10 +364,10 @@
         </item>
         <item>
         <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
+        <link>https://mulberror.github.io/p/math-typesetting/</link>
         <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
+        <guid>https://mulberror.github.io/p/math-typesetting/</guid>
         <description>&lt;p&gt;Stack has built-in support for math typesetting using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not enabled by default side-wide,&lt;/strong&gt; but you can enable it for individual posts by adding &lt;code&gt;math: true&lt;/code&gt; to the front matter. Or you can enable it side-wide by adding &lt;code&gt;math = true&lt;/code&gt; to the &lt;code&gt;params.article&lt;/code&gt; section in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
@@ -416,18 +416,18 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://mulberror.github.io/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://mulberror.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://mulberror.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://mulberror.github.io/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -459,10 +459,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://mulberror.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://mulberror.github.io/search/</guid>
         <description></description>
         </item>
         
