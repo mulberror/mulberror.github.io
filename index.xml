@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+<<<<<<< HEAD
         <title>Mulberror的博客</title>
         <link>https://mulberror.github.io/</link>
         <description>Recent content on Mulberror的博客</description>
@@ -466,5 +467,13 @@ $$&lt;/p&gt;
         <description></description>
         </item>
         
+=======
+        <title>Mulberror</title>
+        <link>//localhost:1313/</link>
+        <description>Recent content on Mulberror</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Mulberror</copyright><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> ee63222 (Update: my avatar)
     </channel>
 </rss>

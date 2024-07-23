@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+<<<<<<< HEAD
     <loc>https://mulberror.github.io/p/hello-world/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -62,5 +63,12 @@
     <loc>https://mulberror.github.io/links/</loc>
   </url><url>
     <loc>https://mulberror.github.io/search/</loc>
+=======
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+>>>>>>> ee63222 (Update: my avatar)
   </url>
 </urlset>
