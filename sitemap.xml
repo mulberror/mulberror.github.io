@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>mulberror.github.io/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-07-23T22:38:33+08:00</lastmod>
   </url><url>
-    <loc>mulberror.github.io/post/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2024-07-23T22:38:33+08:00</lastmod>
   </url><url>
-    <loc>mulberror.github.io/p/test-post/</loc>
+    <loc>//localhost:1313/p/test-post/</loc>
     <lastmod>2024-07-23T22:38:33+08:00</lastmod>
   </url><url>
-    <loc>mulberror.github.io/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>mulberror.github.io/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

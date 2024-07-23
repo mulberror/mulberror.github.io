@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Mulberror</title>
-        <link>mulberror.github.io/</link>
+        <link>//localhost:1313/</link>
         <description>Recent content on Mulberror</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Mulberror</copyright>
-        <lastBuildDate>Tue, 23 Jul 2024 22:38:33 +0800</lastBuildDate><atom:link href="mulberror.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 23 Jul 2024 22:38:33 +0800</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Test Post</title>
-        <link>mulberror.github.io/p/test-post/</link>
+        <link>//localhost:1313/p/test-post/</link>
         <pubDate>Tue, 23 Jul 2024 22:38:33 +0800</pubDate>
         
-        <guid>mulberror.github.io/p/test-post/</guid>
+        <guid>//localhost:1313/p/test-post/</guid>
         <description>&lt;p&gt;你好，这是这篇博客的第一篇 post，该 post 是用作测试使用。&lt;/p&gt;
 </description>
         </item>
