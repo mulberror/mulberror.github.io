@@ -2,73 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-<<<<<<< HEAD
-    <loc>https://mulberror.github.io/p/hello-world/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+    <loc>mulberror.github.io/</loc>
+    <lastmod>2024-07-23T22:38:33+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+    <loc>mulberror.github.io/post/</loc>
+    <lastmod>2024-07-23T22:38:33+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/categories/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+    <loc>mulberror.github.io/p/test-post/</loc>
+    <lastmod>2024-07-23T22:38:33+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/tags/css/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+    <loc>mulberror.github.io/categories/</loc>
   </url><url>
-    <loc>https://mulberror.github.io/tags/html/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/tags/markdown/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/p/markdown-syntax-guide/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/post/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/categories/syntax/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/tags/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/tags/themes/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/categories/themes/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/p/image-gallery/</loc>
-    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/p/shortcodes/</loc>
-    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/p/math-typesetting/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/archives/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/categories/example-category/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/tags/example-tag/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/page/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mulberror.github.io/links/</loc>
-  </url><url>
-    <loc>https://mulberror.github.io/search/</loc>
-=======
-    <loc>//localhost:1313/categories/</loc>
-  </url><url>
-    <loc>//localhost:1313/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
->>>>>>> ee63222 (Update: my avatar)
+    <loc>mulberror.github.io/tags/</loc>
   </url>
 </urlset>
