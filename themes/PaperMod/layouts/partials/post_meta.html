@@ -1,23 +1,62 @@
-{{- $scratch := newScratch }}
+<style>
+  i[id*="post_meta_style"] {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+  }
 
-{{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
-{{- end }}
+  .parent-post-meta {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.8;
+  }
+</style>
 
-{{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
-{{- end }}
-
-{{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
-{{- end }}
-
-{{- if not (.Param "hideAuthor") -}}
-{{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
-{{- end }}
-{{- end }}
-
-{{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
-{{- end -}}
+<span class="parent-post-meta">
+  <span id="post_meta_style_1">
+    <span class="fa fa-calendar-check-o"></span>
+    <span>
+      {{- (.Date.Format (default "2006-01-02" .Site.Params.DateFormat)) }}
+      &nbsp;&nbsp;
+    </span>
+  </span>
+  <span id="post_meta_style_3">
+    <span class="fa fa-file-word-o"></span>
+    <span>
+      {{- .WordCount }}字
+      &nbsp;&nbsp;
+    </span>
+  </span>
+  <span id="post_meta_style_4">
+    <span class="fa fa-clock-o"></span>
+    <span>
+      {{- .ReadingTime }}分钟
+      &nbsp;&nbsp;
+    </span>
+  </span>
+  <!-- <span id="post_meta_style_5">
+    <span class="fa fa-user-o"></span>
+    <span>
+      {{- with (partial "author.html" .) }}
+      {{- . }}
+      {{- end }}
+      &nbsp;&nbsp;
+    </span>
+  </span> -->
+  <span id="post_meta_style_6">
+    <span class="fa fa-tags" style="opacity: 0.8"></span>
+    <span>
+      {{- if .Params.tags }}
+      <span class="post-tags-meta">
+        {{- range $index, $value := ($.GetTerms "tags") }}
+        {{- if eq $index 0}}
+        <a href="{{ .Permalink }}" style="color: var(--secondary)!important;">{{ .LinkTitle }}</a>
+        {{- else }}
+        &nbsp;<a href="{{ .Permalink }}" style="color: var(--secondary)!important;">{{ .LinkTitle }}</a>
+        {{- end }}
+        {{- end }}
+      </span>
+      {{- end }}
+    </span>
+  </span>
+</span>

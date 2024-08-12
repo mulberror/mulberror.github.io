@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}" #标题
 date: {{ .Date }} #创建时间
 lastmod: {{ .Date }} #更新时间
-author: [""] #作者
+author: ["Mulberror"] #作者
 categories: 
 - 分类1
 - 分类2
