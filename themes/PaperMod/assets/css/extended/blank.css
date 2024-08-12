@@ -1,0 +1,11 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+.post-content pre,
+code {
+  font-family: "Fira Code", monospace;
+  font-size: 1rem;
+  line-height: 1.2;
+}
