@@ -17,6 +17,8 @@ TocOpen: false # 自动展开目录
 ## 我的学长们
 {{< friend name="Patrick Star" url="https://www.cnpatrickstar.com/" logo="https://www.cnpatrickstar.com/images/avatar.jpg" word="派大星的石头屋">}}
 
+{{< friend name="Finley Ge" url="https://www.f1nley.xyz/" logo="https://avatars.githubusercontent.com/u/32237950?v=4" word="F1nley学长">}}
+
 <!-- ## 友链格式
 |        |                                   |
 | ------ | --------------------------------- |
