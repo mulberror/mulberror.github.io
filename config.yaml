@@ -155,6 +155,8 @@ languages:
           url: "../img/qq.png"
         - name: bilibili
           url: "https://space.bilibili.com/228169364"
+        - name: RSS
+          url: "index.xml"
       
   en:
     languageName: English

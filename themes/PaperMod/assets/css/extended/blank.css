@@ -250,7 +250,7 @@ code {
 }
 
 .first-entry {
-  min-height: 120px;
+  min-height: 160px;
 }
 
 .toc-container {
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6, body {
 }
 
 .entry-cover {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: hidden;
   width: 50%;
   margin-bottom: unset;
@@ -307,6 +307,7 @@ h1, h2, h3, h4, h5, h6, body {
   overflow: hidden;
   width: 100%;
   padding-right: 10px;
+  margin-left: 6%;
 }
 
 /*top*/
@@ -355,6 +356,40 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     max-width: calc(var(--main-width) + var(--gap) * 5);
 }
 
+/* 头像图片 */
+.profile-image {
+  width: 20%;
+  height: auto;
+  margin-right: 140px;
+  transition: transform 0.3s ease;
+  /* 你可以根据需要添加更多样式 */
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+  /* 控制放大大小 */
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: auto; */
+  /* 垂直居中对齐 */
+}
+
+.profile_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 水平居中对齐 */
+  transition: transform 0.3s ease;
+}
+
+.index_profile_image {
+  margin-bottom: 10%;
+}
+
 /*页面顶部栏两边宽度*/
 .nav {
     max-width: calc(var(--nav-width) + var(--gap) * 10);
@@ -369,6 +404,12 @@ body {
 .post-content {
     /*color: var(--secondary);*/
     font-family: FiraCode, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    display: none;
+  }
 }
 
 .post-content h1 {
@@ -465,7 +506,7 @@ img:active {
 }
 
 .entry-cover {
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
     width: 50%;
     margin-bottom: unset;
