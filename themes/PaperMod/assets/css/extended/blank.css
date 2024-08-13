@@ -277,6 +277,13 @@ h1, h2, h3, h4, h5, h6, body {
   display: block;
   margin: 0 auto;
   object-fit: cover;
+  transition: transform 0.3s ease;
+  /* 控制放大/缩小的速度和效果 */
+}
+
+.entry-cover-post img:hover {
+  transform: scale(1.03);
+  /* 将图片放大到原始尺寸的 1.05 倍 */
 }
 
 .post-entry {
