@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>二分搜索 on Mulberror&#39;s Blog</title>
-    <link>https://mulberror.github.io/zh/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/</link>
+    <link>https://blog.mulberror.top/zh/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/</link>
     <description>Recent content in 二分搜索 on Mulberror&#39;s Blog</description>
     <image>
       <title>Mulberror&#39;s Blog</title>
-      <url>https://mulberror.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://mulberror.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://blog.mulberror.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.mulberror.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>zh</language>
     <copyright>©2023 Mulberror&amp;rsquo;s Blog</copyright>
     <lastBuildDate>Mon, 12 Aug 2024 18:09:10 +0800</lastBuildDate>
-    <atom:link href="https://mulberror.github.io/zh/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mulberror.top/zh/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>算法 | 二分与三分</title>
-      <link>https://mulberror.github.io/zh/post/binary-search/</link>
+      <link>https://blog.mulberror.top/zh/post/binary-search/</link>
       <pubDate>Mon, 12 Aug 2024 18:09:10 +0800</pubDate>
-      <guid>https://mulberror.github.io/zh/post/binary-search/</guid>
+      <guid>https://blog.mulberror.top/zh/post/binary-search/</guid>
       <description>A. 愤怒的牛 题目连接：Reach-Top
 考虑二分两只牛之间的最小距离，然后用贪心放置牛的位置。
 #include &amp;lt;bits/stdc++.h&amp;gt; using namespace std; const int N = 1e5 + 5; int n, m; int a[N]; bool check(int len) { int cnt = 1, last = a[1]; for (int i = 2; i &amp;lt;= n; i++) { if (a[i] - last &amp;gt;= len) { cnt++; last = a[i]; } } return cnt &amp;gt;= m; } int main() { scanf(&amp;#34;%d%d&amp;#34;, &amp;amp;n, &amp;amp;m); for (int i = 1; i &amp;lt;= n; i++) { scanf(&amp;#34;%d&amp;#34;, &amp;amp;a[i]); } sort(a + 1, a + 1 + n); int low = 0, high = 1e9, ans = 1e9; while (low &amp;lt;= high) { int mid = (low + high) / 2; if (check(mid)) { ans = mid; low = mid + 1; } else { high = mid - 1; } } printf(&amp;#34;%d\n&amp;#34;, ans); } B.</description>

@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://mulberror.github.io/sitemap.xml
+Sitemap: https://blog.mulberror.top/sitemap.xml

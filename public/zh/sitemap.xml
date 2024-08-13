@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mulberror.github.io/zh/categories/</loc>
+    <loc>https://blog.mulberror.top/zh/categories/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mulberror.github.io/en/categories/"
+                href="https://blog.mulberror.top/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mulberror.github.io/zh/categories/"
+                href="https://blog.mulberror.top/zh/categories/"
                 />
   </url><url>
-    <loc>https://mulberror.github.io/zh/</loc>
+    <loc>https://blog.mulberror.top/zh/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mulberror.github.io/en/"
+                href="https://blog.mulberror.top/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mulberror.github.io/zh/"
+                href="https://blog.mulberror.top/zh/"
                 />
   </url><url>
-    <loc>https://mulberror.github.io/zh/post/</loc>
+    <loc>https://blog.mulberror.top/zh/post/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/zh/tags/</loc>
+    <loc>https://blog.mulberror.top/zh/tags/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mulberror.github.io/en/tags/"
+                href="https://blog.mulberror.top/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mulberror.github.io/zh/tags/"
+                href="https://blog.mulberror.top/zh/tags/"
                 />
   </url><url>
-    <loc>https://mulberror.github.io/zh/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/</loc>
+    <loc>https://blog.mulberror.top/zh/tags/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/zh/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://blog.mulberror.top/zh/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/zh/post/binary-search/</loc>
+    <loc>https://blog.mulberror.top/zh/post/binary-search/</loc>
     <lastmod>2024-08-12T18:09:10+08:00</lastmod>
   </url><url>
-    <loc>https://mulberror.github.io/zh/archives/</loc>
+    <loc>https://blog.mulberror.top/zh/archives/</loc>
   </url><url>
-    <loc>https://mulberror.github.io/zh/search/</loc>
+    <loc>https://blog.mulberror.top/zh/search/</loc>
   </url><url>
-    <loc>https://mulberror.github.io/zh/links/</loc>
+    <loc>https://blog.mulberror.top/zh/links/</loc>
   </url>
 </urlset>

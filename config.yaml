@@ -1,6 +1,6 @@
-baseURL: "https://mulberror.github.io/"
+baseURL: "https://blog.mulberror.top" # 
 title: Mulberror's Blog
-copyright: "[©2023 Mulberror's Blog](https://mulberror.github.io/)" # 网站的版权声明，通常显示在页脚
+copyright: "[©2023 Mulberror's Blog](https://blog.mulberror.top)" # 网站的版权声明，通常显示在页脚
 paginate: 15
 theme: PaperMod
 languageCode: zh-cn

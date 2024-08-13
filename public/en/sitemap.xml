@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mulberror.github.io/en/categories/</loc>
+    <loc>https://blog.mulberror.top/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mulberror.github.io/zh/categories/"
+                href="https://blog.mulberror.top/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mulberror.github.io/en/categories/"
+                href="https://blog.mulberror.top/en/categories/"
                 />
   </url><url>
-    <loc>https://mulberror.github.io/en/</loc>
+    <loc>https://blog.mulberror.top/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mulberror.github.io/zh/"
+                href="https://blog.mulberror.top/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mulberror.github.io/en/"
+                href="https://blog.mulberror.top/en/"
                 />
   </url><url>
-    <loc>https://mulberror.github.io/en/tags/</loc>
+    <loc>https://blog.mulberror.top/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://mulberror.github.io/zh/tags/"
+                href="https://blog.mulberror.top/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mulberror.github.io/en/tags/"
+                href="https://blog.mulberror.top/en/tags/"
                 />
   </url>
 </urlset>
