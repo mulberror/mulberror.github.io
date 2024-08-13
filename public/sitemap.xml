@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://blog.mulberror.top/zh/sitemap.xml</loc>
+    <loc>http://localhost:1313/zh/sitemap.xml</loc>
     
       <lastmod>2024-08-12T18:09:10+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://blog.mulberror.top/en/sitemap.xml</loc>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
     
   </sitemap>
   
