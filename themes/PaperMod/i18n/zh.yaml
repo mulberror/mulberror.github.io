@@ -6,11 +6,11 @@
 
 - id: read_time
   translation:
-    one : "1 分钟"
+    one: "1 分钟"
     other: "{{ .Count }} 分钟"
 
 - id: words
-  translation: 
+  translation:
     one: "字"
     other: "{{ .Count }} 字"
 
@@ -27,7 +27,7 @@
   translation: "编辑"
 
 - id: code_copy
-  translation: "复制"
+  translation: "点击复制"
 
 - id: code_copied
-  translation: "已复制！"
+  translation: "复制成功"

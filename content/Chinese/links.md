@@ -12,6 +12,8 @@ TocOpen: false # 自动展开目录
 
 {{< friend name="MLAcookie" url="https://mlacookie.top" logo="https://mlacookie.github.io/img/avatar_hu01ec501d434397934aa5721ebabee736_552660_300x0_resize_box_3.png" word="好室友一号">}}
 
+{{< friend name="ximo" url="https://www.lonesome.cn/" logo="https://www.lonesome.cn/assets/avatar.png" word="惜寞的无人小间">}}
+
 ## 我的学长们
 {{< friend name="Patrick Star" url="https://www.cnpatrickstar.com/" logo="https://www.cnpatrickstar.com/images/avatar.jpg" word="派大星的石头屋">}}
 

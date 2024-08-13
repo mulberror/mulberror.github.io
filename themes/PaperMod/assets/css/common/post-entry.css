@@ -25,6 +25,10 @@
     -webkit-line-clamp: 3;
 }
 
+.tag-entry .entry-cover {
+    display: flex;
+}
+
 .first-entry .entry-footer {
     font-size: 14px;
 }
