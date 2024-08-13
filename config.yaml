@@ -164,7 +164,7 @@ languages:
     contentDir: content/English
     params:
       label:
-        text: "Home"
+        text: "Mulberror's Blog"
         icon: /apple-touch-icon.png
         iconHeight: 35
       profileMode:
