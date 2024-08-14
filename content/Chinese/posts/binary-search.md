@@ -8,7 +8,7 @@ categories:
 tags: 
 - 二分搜索
 - 三分搜索
-description: "二分搜索是非常基础且实用的算法，其转换的思维也是解决问题的关键。" #描述
+description: "二分搜索是非常基础且实用的算法，将求解问题变成验证问题，用较小的时间换取方便的解法，这样的转换思维是解决问题的常用方法。" #描述
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
 draft: false # 是否为草稿
@@ -19,7 +19,7 @@ hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
 showbreadcrumbs: true #顶部显示当前路径
 cover:
-    image: "zh/posts/img/img.jpg" #图片路径：posts/tech/文章1/picture.png
+    image: "" #图片路径：posts/tech/文章1/picture.png
     caption: "" #图片底部描述
     alt: ""
     relative: true

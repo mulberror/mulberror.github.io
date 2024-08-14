@@ -259,7 +259,13 @@ code {
 
 /*文章字体*/
 
-h1, h2, h3, h4, h5, h6, body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
   font-family: FiraCode;
 }
 
@@ -306,7 +312,7 @@ h1, h2, h3, h4, h5, h6, body {
   display: inline-block;
   overflow: hidden;
   width: 100%;
-  padding-right: 10px;
+  padding-right: var(--gap);
   margin-left: 6%;
 }
 
@@ -334,26 +340,26 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 */
 
 :root {
-    --footer-height: 40px;
-    /*--content-gap: 20px;*/
-    /*--content: rgb(80, 80, 80);*/
-    /*--hljs-bg: rgb(35, 35, 35);*/
-    --hljs-bg: rgb(44, 44, 44);
-    /*--code-bg: rgb(235, 235, 235);*/
-    --code-bg: rgb(240, 240, 240);
-    --code-bg-border: rgb(200, 200, 200);
-    --black: rgb(0, 0, 0);
-    --white: rgb(255, 255, 255);
-    --tag: rgb(235, 235, 235);
+  --footer-height: 40px;
+  /*--content-gap: 20px;*/
+  /*--content: rgb(80, 80, 80);*/
+  /*--hljs-bg: rgb(35, 35, 35);*/
+  --hljs-bg: rgb(44, 44, 44);
+  /*--code-bg: rgb(235, 235, 235);*/
+  --code-bg: rgb(240, 240, 240);
+  --code-bg-border: rgb(200, 200, 200);
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --tag: rgb(235, 235, 235);
 
-    --nav-width: 1300px;
-    /*--nav-width: 1024px;*/
-    --article-width: 650px;
-    --toc-width: 300px;
+  --nav-width: 1300px;
+  /*--nav-width: 1024px;*/
+  --article-width: 650px;
+  --toc-width: 300px;
 }
 
 .main {
-    max-width: calc(var(--main-width) + var(--gap) * 5);
+  max-width: calc(var(--main-width) + var(--gap) * 5);
 }
 
 /* 头像图片 */
@@ -392,18 +398,18 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 /*页面顶部栏两边宽度*/
 .nav {
-    max-width: calc(var(--nav-width) + var(--gap) * 10);
+  max-width: calc(var(--nav-width) + var(--gap) * 10);
 }
 
 body {
-    font-size: 18px;
-    line-height: 1.6;
-    font-family: FiraCode, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: FiraCode, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 .post-content {
-    /*color: var(--secondary);*/
-    font-family: FiraCode, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  /*color: var(--secondary);*/
+  font-family: FiraCode, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -413,144 +419,154 @@ body {
 }
 
 .post-content h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .post-content h2 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 .post-content h3 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .post-content h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .post-content h5 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .post-content h6 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .post-content p {
-    margin-top: 20px;
-    /*text-indent: 2em;*/ /*所有首行缩进*/
+  margin-top: 20px;
+  /*text-indent: 2em;*/
+  /*所有首行缩进*/
 }
 
-.dark .post-content h1, .dark .post-content h2, .dark .post-content h3,
-.dark .post-content h4, .dark .post-content h5, .dark .post-content h6,
+.dark .post-content h1,
+.dark .post-content h2,
+.dark .post-content h3,
+.dark .post-content h4,
+.dark .post-content h5,
+.dark .post-content h6,
 .dark .post-title {
-    color: var(--content);
+  color: var(--content);
 }
 
-.dark h1, .dark h2,
-.dark h3, .dark h4,
-.dark h5, .dark h6,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
 .dark p {
-    color: rgba(180, 181, 182, 0.8);
+  color: rgba(180, 181, 182, 0.8);
 }
 
 .post-description {
-    padding-bottom: 10px;
-    color: var(--secondary);
+  padding-bottom: 10px;
+  color: var(--secondary);
 }
 
-.dark body, .dark a, .dark .toc .details {
-    color: rgba(180, 181, 182, 0.8);
+.dark body,
+.dark a,
+.dark .toc .details {
+  color: rgba(180, 181, 182, 0.8);
 }
 
 img {
-    opacity: 1;
-    border-radius: 10px;
-    border: 1px solid var(--border);
+  opacity: 1;
+  border-radius: 10px;
+  border: 1px solid var(--border);
 }
 
 .dark img {
-    opacity: 0.8;
-    border: 1px solid var(--border);
+  opacity: 0.8;
+  border: 1px solid var(--border);
 }
 
 img:active {
-    transform: scale(1.25, 1.25);
-    opacity: 1;
-    z-index: 999;
-    border: 1px solid var(--border);
+  transform: scale(1.25, 1.25);
+  opacity: 1;
+  z-index: 999;
+  border: 1px solid var(--border);
 }
 
 @media screen and (min-width: 768px) {
-    ::-webkit-scrollbar {
-        width: 13px;
-        height: 13px;
-    }
+  ::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+  }
 }
 
 .footer {
-    max-width: none;
-    padding: 10px 0 5px 0;
+  max-width: none;
+  padding: 10px 0 5px 0;
 }
 
 .entry-cover1 {
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .post-entry {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .entry-cover {
-    /* border-radius: 10px; */
-    overflow: hidden;
-    width: 50%;
-    margin-bottom: unset;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  width: 50%;
+  margin-bottom: unset;
 
-    max-height: 150px;
-    display: grid;
-    align-content: center;
+  max-height: 150px;
+  display: grid;
+  align-content: center;
 }
 
 .post-info {
-    display: inline-block;
-    overflow: hidden;
-    width: 100%;
-    padding-right: 10px;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  padding-right: 3%;
 }
 
 /*top*/
 .topInner {
-    display: grid;
-    align-items: baseline;
-    justify-items: center;
-    margin: 7px;
-    font-weight: 900;
+  display: grid;
+  align-items: baseline;
+  justify-items: center;
+  margin: 7px;
+  font-weight: 900;
 }
 
 .topSvg {
-    width: 20px;
+  width: 20px;
 }
 
 .top-link {
-    background-color: azure;
-    padding: unset;
+  background-color: azure;
+  padding: unset;
 }
 
 /*表格*/
 .post-content table {
-    word-break: normal;
+  word-break: normal;
 }
 
 .post-content table th {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /*首页button*/
 .buttons {
-    max-width: 100%;
+  max-width: 100%;
 }
