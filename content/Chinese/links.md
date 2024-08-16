@@ -19,6 +19,8 @@ TocOpen: false # 自动展开目录
 
 {{< friend name="Finley Ge" url="https://www.f1nley.xyz/" logo="https://avatars.githubusercontent.com/u/32237950?v=4" word="F1nley学长">}}
 
+{{< friend name="gggaaallleee" url="https://gggaaalleeee.top/" logo="https://gggaaalleeee.top/image/avatar.jpg" word="摸鱼端の秘密基地">}}
+
 ## 我的学弟们
 {{< friend name="离谱" url="https://xixiibn5100.github.io/" logo="https://xixiibn5100.github.io/assets/img/cat.jpg" word="靠谱的博客">}}
 
