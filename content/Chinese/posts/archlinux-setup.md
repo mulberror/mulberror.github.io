@@ -11,7 +11,7 @@ tags:
 description: "" #描述
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
-draft: false # 是否为草稿
+draft: true # 是否为草稿
 comments: false #是否展示评论
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录
