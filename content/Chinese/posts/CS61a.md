@@ -13,8 +13,8 @@ weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默
 slug: ""
 draft: false # 是否为草稿
 comments: false #是否展示评论
-showToc: true # 显示目录
-TocOpen: true # 自动展开目录
+showToc: false # 显示目录
+TocOpen: false # 自动展开目录
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
 showbreadcrumbs: true #顶部显示当前路径
@@ -27,6 +27,8 @@ cover:
 
 ## 1 前言
 本篇文章主要记录的就是笔者在学习 CS61A 的一些心得和一些想法，做的是 2024 Fall 的版本，笔者的编写的作业和相关资料都在笔者的 [github repo](https://github.com/mulberror/CS61A) 中，包括了没有修改的作业之类的。
+
+课程官网：[CS61A](https://cs61a.org/)
 
 ## 2 Lab00 Getting Started
 Lab00 的作用主要就是做给后面的 Lab 作业做一个铺垫，稍微简单的说一下 lab 的情况。
@@ -62,4 +64,4 @@ python3 ok -q xxx
 python3 -i lab00.py
 ```
 
-然后进入到 python 的运行界面中，然后输入对应的函数进行测试。
+然后进入到 python 的运行界面中，然后输入对应的函数进行测试，在后面编写 proj 的时候会给程序在何种的测试数据下，何处产生了何种错误。
