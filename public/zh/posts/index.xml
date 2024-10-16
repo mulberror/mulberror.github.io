@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>文章 on Mulberror&#39;s Blog</title>
+    <link>http://localhost:1313/zh/posts/</link>
+    <description>Recent content in 文章 on Mulberror&#39;s Blog</description>
+    <image>
+      <title>Mulberror&#39;s Blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>zh</language>
+    <copyright>©2023 Mulberror&amp;rsquo;s Blog</copyright>
+    <lastBuildDate>Tue, 15 Oct 2024 21:13:15 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS61A</title>
+      <link>http://localhost:1313/zh/posts/cs61a/</link>
+      <pubDate>Tue, 15 Oct 2024 21:13:15 +0800</pubDate>
+      <guid>http://localhost:1313/zh/posts/cs61a/</guid>
+      <description>这是笔者学习 CS61A 课程的记录，主要针对 Python 的入门学习，笔者做的是 2022-fall 版本。</description>
+    </item>
+    <item>
+      <title>二分与三分</title>
+      <link>http://localhost:1313/zh/posts/binary-search/</link>
+      <pubDate>Mon, 12 Aug 2024 18:09:10 +0800</pubDate>
+      <guid>http://localhost:1313/zh/posts/binary-search/</guid>
+      <description>二分搜索是非常基础且实用的算法，将求解问题变成验证问题，用较小的时间换取方便的解法，这样的转换思维是解决问题的常用方法。</description>
+    </item>
+  </channel>
+</rss>
