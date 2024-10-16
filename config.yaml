@@ -115,10 +115,14 @@ languages:
           name: 标签
           url: tags
           weight: 40
+        - identifier: categories
+          name: 分类
+          url: /categories/
+          weight: 45
         - identifier: links
           name: 友链
           url: /links
-          weight: 45
+          weight: 50
   # profile-mode
     params:
       label:

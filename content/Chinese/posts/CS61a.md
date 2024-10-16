@@ -1,5 +1,5 @@
 ---
-title: "学习记录 CS61A" #标题
+title: "学习记录 | CS61A" #标题
 date: 2024-10-15T21:13:15+08:00 #创建时间
 lastmod: 2024-10-15T21:13:15+08:00 #更新时间
 author: ["Mulberror"] #作者
@@ -8,7 +8,7 @@ categories:
 tags: 
 - Python
 - 编程基础
-description: "这是笔者学习 CS61A 课程的记录，主要针对 Python 的入门学习，笔者做的是 2022-fall 版本。" #描述
+description: "本篇文章为笔者学习 CS61A 课程的记录，CS61A 主要是 Python 的入门学习，其中笔者做的是 2022-fall 版本。" #描述
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 slug: ""
 draft: false # 是否为草稿
@@ -28,7 +28,11 @@ cover:
 ## 1 前言
 本篇文章主要记录的就是笔者在学习 CS61A 的一些心得和一些想法，做的是 2024 Fall 的版本，笔者的编写的作业和相关资料都在笔者的 [github repo](https://github.com/mulberror/CS61A) 中，包括了没有修改的作业之类的。
 
-课程官网：[CS61A](https://cs61a.org/)
+课程官网：[CS61A](https://cs61a.org/) 
+
+课程教材：[Composing Program](https://www.composingprograms.com/) [教材翻译](https://composingprograms.netlify.app/)
+
+笔者作业实现：[github repo](https://github.com/mulberror/CS61A)
 
 ## 2 Lab00 Getting Started
 Lab00 的作用主要就是做给后面的 Lab 作业做一个铺垫，稍微简单的说一下 lab 的情况。
